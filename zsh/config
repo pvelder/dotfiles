@@ -5,7 +5,7 @@ else
 fi
 
 export EDITOR='mate -w'
-export PATH="~/bin:/opt/git/bin:/opt/local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/opt/git/bin:/opt/local/bin:~/bin:$PATH"
 export MANPATH="/opt/local/man:/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 fpath=(~/.zsh/functions $fpath)
